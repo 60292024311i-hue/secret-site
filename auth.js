@@ -5,7 +5,7 @@ function login() {
 
   if (input === PASSWORD) {
     sessionStorage.setItem("auth", "true");
-    location.href = "https://sites.google.com/d/1nzQdI27HrVgrf4BI8b2yt4wnoKGwL0-a/p/1TfH-epYU0gTkYQRbqLjIXEG2buSmcvNZ/edit";
+    location.href = "https://sites.google.com/g.miyazaki-c.ed.jp/kyom/%E3%83%9B%E3%83%BC%E3%83%A0/kaikyoma";
   } else {
     document.getElementById("error").textContent = "パスワードが違います";
   }
